@@ -5,9 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Coffee Services</title>
-  <meta name="description" content="Free Bootstrap Theme by uicookies.com">
-  <meta name="keywords"
-    content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+  <meta name="description" content="Coffee Services">
+  <meta name="keywords" content="Coffee Services">
 
   <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand|Open+Sans:300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/styles-merged.css">
@@ -27,11 +26,13 @@
 <body>
 
   <!-- START: header -->
-  <div class="text-right topbar">
-    <li class="email-top"><i class="icon-mail"></i><a class="email"
-        href="mailto:sales@coffeeservices.co.nz">sales@coffeeservices.co.nz</a></li>
-    <li><i class="icon-phone2"></i><span>0800 837 848</span></li>
-  </div>
+  <section>
+    <div class="text-right topbar">
+      <li class="email-top"><i class="icon-mail"></i><a class="email"
+          href="mailto:sales@coffeeservices.co.nz">sales@coffeeservices.co.nz</a></li>
+      <li><i class="icon-phone2"></i><span>0800 837 848</span></li>
+    </div>
+  </section>
   <div class="probootstrap-loader"></div>
 
   <header role="banner" class="probootstrap-header">
@@ -43,11 +44,11 @@
 
       <nav role="navigation" class="probootstrap-nav hidden-xs">
         <ul class="probootstrap-main-nav">
-          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="machines.html">Machines</a></li>
           <li><a href="rent-free-machines.html">Rent Free Machines</a></li>
-          <li class="active"><a href="services.html">Services</a></li>
+          <li><a href="services.html">Services</a></li>
           <li><a href="coffee-tea-supplies.html">Coffee and Tea Supplies</a></li>
           <li><a class="btn btn-primary btn-sm" href="contact.html">Contact</a></li>
         </ul>
@@ -56,91 +57,64 @@
     </div>
   </header>
   <!-- END: header -->
-
-  <section class="probootstrap-slider flexslider">
+  <section class="probootstrap-slider machine-flexslider">
     <div>
-      <img class="about-us" src="img/services.jpg">
-    </div>
-  </section>
+      <div class="container">
+        <h2 class="machine-heading">Tomato Soup</h2>
+        <p class="subhead">Available in 1 kg pack</p>
+        <div class="upper-section">
 
-  <section class="probootstrap-section probootstrap-bg">
-    <div class="container text-center">
-      <h2 class="heading probootstrap-animate" data-animate-effect="fadeIn">Our Services</h2>
-      <h5 class="text-center">Learn about the services we offer for</h5>
-      <h5 class="text-center">workplace coffee machine</h5>
-    </div>
-  </section>
+          <div class="upper-section-left"><img src="img/tomato-soup.jpg"></div>
+          <div class="upper-section-right">
+            <p class="services-paragraph">
+              Tomatoes are packed with vitamins, minerals, antioxidants, and plant compounds that offer a wide range of
+              health benefits.Research even suggests that these nutrients may protect against multiple diseases,
+              including
+              heart disease and cancer.
+            </p>
+            <ul>
+              <li> Improves bone health</li>
+              <li> Full of antioxidants</li>
+              <li> High levels of selenium</li>
+              <li> Boosts your brain power</li>
+              <li> Low in calories</li>
+              <li> Reduces the risk of heart disease</li>
+              <li> Helps prevent cancer</li>
+              <li> Boosts sperm mobility</li>
+              <li> Low glycemic index</li>
+              <li> Protects your skin</li>
+            </ul>
 
-
-  <section class="probootstrap-section-grey">
-    <div class="container">
-      <div style="margin-top:40px">
-
-        <div class="clearfix visible-lg-block visible-md-block"></div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
-          <a href="partner.html">
-
-
-            <div class="">
-              <figure class="center services"><img src="img/partner.png" class="auto-height img-responsive"></figure>
-              <div class="text">
-                <h5 class="text-center orange"><strong>Become a partner</strong> </h5>
-                <h5 class="text-center">Get reassurance through</h5>
-                <h5 class="text-center">partnering with a trusted</h5>
-                <h5 class="text-center">workplace coffee machine brand</h5>
-              </div>
-            </div>
-
-          </a>
+          </div>
         </div>
-        <div class="clearfix visible-sm-block"></div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
-
-          <a href="coffee-machines-rental.html">
-
-            <div class="">
-              <figure class="center services"><img src="img/coffee-service.png" class="auto-height img-responsive">
-              </figure>
-              <div class="text">
-                <h5 class="text-center orange"><strong>Rent a machine</strong></h5>
-                <h5 class="text-center">Choose from our</h5>
-                <h5 class="text-center">comprehensive range of</h5>
-                <h5 class="text-center">coffee & tea machines</h5>
-              </div>
-            </div>
-
-          </a>
-
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
-
-          <a href="maintenance.html">
-
-            <div class="">
-              <figure class="center services"><img src="img/gear.png" class="auto-height img-responsive"></figure>
-              <div class="text">
-                <h5 class="text-center orange"><strong>Repair and maintenance</strong> </h5>
-                <h5 class="text-center">Our qualified technicians</h5>
-                <h5 class="text-center">respond quickly to any</h5>
-                <h5 class="text-center">fault issues</h5>
-              </div>
-            </div>
-
-          </a>
-
-
-        </div>
-        <div class="clearfix visible-lg-block visible-md-block"></div>
+        <table>
+          <tr>
+            <td>
+              <a href="coffee-tea-supplies.html">
+                <div class="fa fa-arrow-circle-left eachdetails"></div>
+              </a>
+            </td>
+            <td>
+              <a href="contact.html">
+                <div class="btn btn-primary btn-sm right">Enquire</div>
+              </a>
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
+
   </section>
+  <!-- END: slider  -->
+
+
 
 
 
 
   <footer class="probootstrap-footer probootstrap-bg" style="background-image: url(img/3.jpg)">
     <div class="container">
-      <div style="margin-top:40px">
+      <div class=" mb60">
         <div class="col-md-3">
           <div class="probootstrap-footer-widget">
             <h4 class="heading">About Our Company</h4>
@@ -218,6 +192,7 @@
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
+
 </body>
 
 </html>
